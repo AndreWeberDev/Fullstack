@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Entre em contato com o Arcade365 para sugestões e dúvidas." />
+  <meta name="keywords" content="Contato, Arcade365, Sugestões, Feedback" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato - Arcade365</title>
+  <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+  <header id="cabecalho">
+    <div class="container">
+      <figure>
+        <a href="../../index.html">
+          <img height="150" width="300" src="../../assets/img/logoSemBG01.png" alt="Logo do site" />
+          <figcaption>Logo do site - Arcade365</figcaption>
+        </a>
+      </figure>
+      <nav class="menu">
+        <ul>
+          <li><a href="https://github.com/AndreWeberDev/projeto-arcade365"><strong>Github Do Projeto</strong></a></li>
+          <li><a href="./about.html"><strong>Sobre</strong></a></li>
+          <li><a href="./terms.html"><strong>Termos de Serviço</strong></a></li>
+          <li><a href="./politics.html"><strong>Política de Privacidade</strong></a></li>
+          <li><a href="./contato.html"><strong>Contato</strong></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="principal">
+    <div class="container">
+      <section class="form">
+        <h2 style="text-align: center; margin-bottom: 30px; color: #667eea;">Entre em Contato Conosco</h2>
+        <form id="contactForm">
+          <div class="input-group">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+
+          <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <div class="input-group">
+            <label for="whatsapp">WhatsApp (opcional):</label>
+            <input type="tel" name="whatsapp" id="whatsapp" />
+          </div>
+
+          <div class="input-group">
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" required></textarea>
+          </div>
+
+          <button type="submit" class="rating-button" style="width: 100%; padding: 14px; font-size: 16px;">Enviar Mensagem</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer id="rodape">
+    <nav>
+      <ul>
+        <li><a href="https://github.com/AndreWeberDev/projeto-arcade365"><strong>Github Do Projeto</strong></a></li>
+        <li><a href="./about.html"><strong>Sobre</strong></a></li>
+        <li><a href="./terms.html"><strong>Termos de Serviço</strong></a></li>
+        <li><a href="./politics.html"><strong>Política</strong></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2026 Arcade365 - todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('Obrigado pelo contato! Entraremos em contato em breve.');
+      this.reset();
+    });
+  </script>
+</body>
+
+</html>

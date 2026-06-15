@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="O melhor site de jogos online da web!">
+  <meta name="keywords"
+    content="Tiro em primeira pessoa(FPS), Terror, Jogos online, jogos, games online, RPG, Indie, Luta, romance, Grátis, gratuito, simulador, carros, meninas, meninos, ação, plataforma, mario, cooperativo, quebra-cabeças, casual, aventura, Um jogador, 2D, 3D, estratégia, exploração, fantasia, fofo, gráficos pixelados, combate, relaxante, engraçado, arcade, controle, esportes, retrô, ficção cientifica, corrida, mistério, cartunizado, comédia, Mágica" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/css/home.css">
+  <title>Home | Arcade365 </title>
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <header id="cabecalho">
+    <div class="container">
+      <figure>
+        <a href="./index.html">
+          <img height="150" width="300" src="./assets/img/logoSemBG01.png" alt="Logo do Site">
+          <figcaption>Logo do site - Arcade365</figcaption>
+        </a>
+      </figure>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="https://github.com/AndreWeberDev/projeto-arcade365"><strong>Github Do Projeto</strong></a></li>
+          <li><a href="./src/view/about.html"><strong>Sobre</strong></a></li>
+          <li><a href="./src/view/terms.html"><strong>Termos de Serviço</strong></a></li>
+          <li><a href="./src/view/politics.html"><strong>Política de Privacidade</strong></a></li>
+          <li><a href="./src/view/contato.html"><strong>Contato</strong></a></li>
+        </ul>
+      </nav>
+      <section class="title">
+        <h1>Arcade365 - Jogos</h1>
+      </section>
+    </div>
+  </header>
+  <main id="principal">
+    <div class="container">
+      <section class="card-jogos">
+        <a href="https://dev-junin.itch.io/mario">
+          <div class="mario"><img width="100" height="100" src="./assets/img/mario.jpg" alt="Mario">Mario</div>
+        </a>
+        <a href="https://www.friv.com/z/games/bloxorz/game.html">
+          <div class="jogo"><img width="100" height="100" src="./assets/img/bloxzorz.jpg" alt="Bloxorz">Bloxorz</div>
+        </a>
+        <a href="https://www.friv.com/z/games/fireboyandwatergirlforest/game.html">
+          <div class="jogo"><img width="100" height="100" src="./assets/img/fireboy&watergirl.jpg" alt="Fireboy and WaterGirl">Fireboy & WaterGirl</div>
+        </a>
+        <a href="https://www.friv.com/z/games/carsimulatorarena/game.html">
+          <div class="jogo"><img width="100" height="100" src="./assets/img/carsimulatorarena.jpg" alt="Car Simulator">Arena de Simulação</div>
+        </a>
+        <a href="https://www.friv.com/z/games/motox3m/game.html">
+          <div class="jogo"><img width="100" height="100" src="./assets/img/motox3m.jpg" alt="Moto X3M">Moto X3M</div>
+        </a>
+        <a href="https://www.friv.com/z/games/chess/game.html">
+          <div class="jogo"><img width="100" height="100" src="./assets/img/xadrez.jpg" alt="Xadrez">Xadrez</div>
+        </a>
+        <a href="https://www.friv.com/z/games/idleminingempire/game.html">
+          <div class="jogo"><img width="100" height="100" src="./assets/img/idleminingempire.jpg" alt="Idle Mining">Simulador de Magnata</div>
+        </a>
+
+        <div id="dynamic-games"></div>
+      </section>
+      <section class="cards-highlights">
+        <article class="cards">
+          <img src="./assets/img/example.png" alt="">
+          <h2>Jogo #1</h2>
+          <p>Descrição do jogo #1</p>
+        </article>
+        <article class="cards">
+          <img src="./assets/img/example.png" alt="">
+          <h2>Jogo #2</h2>
+          <p>Descrição do jogo #2</p>
+        </article>
+        <article class="cards">
+          <img src="./assets/img/example.png" alt="">
+          <h2>Jogo #3</h2>
+          <p>Descrição do jogo #3</p>
+        </article>
+      </section>
+
+      <section class="table-main">
+        <table width="100%" border="1">
+          <thead>
+            <tr>
+              <th>Jogos Recomendados</th>
+              <th>Avaliações dos jogos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>jogo legal 1</td>
+              <td>avaliação legal 1 ★★★</td>
+            </tr>
+          </tbody>
+          <tr>
+            <td>jogo legal 2</td>
+            <td>avaliação legal 2 ★★★★★</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="ratings-section">
+        <h2>⭐ Avalie os Jogos</h2>
+        <p style="text-align: center; color: #aaa; margin-bottom: 30px;">Clique em um jogo abaixo e deixe sua avaliação</p>
+        <div class="ratings-container">
+          <div class="rating-card">
+            <h3>Mario</h3>
+            <div class="rating-stars">
+              <span class="star" data-value="1">⭐</span>
+              <span class="star" data-value="2">⭐</span>
+              <span class="star" data-value="3">⭐</span>
+              <span class="star" data-value="4">⭐</span>
+              <span class="star" data-value="5">⭐</span>
+            </div>
+            <p class="rating-comment" id="comment-mario">Clique para avaliar</p>
+            <button type="button" class="rating-button" data-game-id="mario">Enviar Avaliação</button>
+          </div>
+
+          <div class="rating-card">
+            <h3>Bloxorz</h3>
+            <div class="rating-stars">
+              <span class="star" data-value="1">⭐</span>
+              <span class="star" data-value="2">⭐</span>
+              <span class="star" data-value="3">⭐</span>
+              <span class="star" data-value="4">⭐</span>
+              <span class="star" data-value="5">⭐</span>
+            </div>
+            <p class="rating-comment" id="comment-bloxorz">Clique para avaliar</p>
+            <button type="button" class="rating-button" data-game-id="bloxorz">Enviar Avaliação</button>
+          </div>
+
+          <div class="rating-card">
+            <h3>Fireboy & WaterGirl</h3>
+            <div class="rating-stars">
+              <span class="star" data-value="1">⭐</span>
+              <span class="star" data-value="2">⭐</span>
+              <span class="star" data-value="3">⭐</span>
+              <span class="star" data-value="4">⭐</span>
+              <span class="star" data-value="5">⭐</span>
+            </div>
+            <p class="rating-comment" id="comment-fireboy">Clique para avaliar</p>
+            <button type="button" class="rating-button" data-game-id="fireboy">Enviar Avaliação</button>
+          </div>
+
+          <div class="rating-card">
+            <h3>Moto X3M</h3>
+            <div class="rating-stars">
+              <span class="star" data-value="1">⭐</span>
+              <span class="star" data-value="2">⭐</span>
+              <span class="star" data-value="3">⭐</span>
+              <span class="star" data-value="4">⭐</span>
+              <span class="star" data-value="5">⭐</span>
+            </div>
+            <p class="rating-comment" id="comment-motox3m">Clique para avaliar</p>
+            <button type="button" class="rating-button" data-game-id="motox3m">Enviar Avaliação</button>
+          </div>
+
+          <div class="rating-card">
+            <h3>Xadrez</h3>
+            <div class="rating-stars">
+              <span class="star" data-value="1">⭐</span>
+              <span class="star" data-value="2">⭐</span>
+              <span class="star" data-value="3">⭐</span>
+              <span class="star" data-value="4">⭐</span>
+              <span class="star" data-value="5">⭐</span>
+            </div>
+            <p class="rating-comment" id="comment-chess">Clique para avaliar</p>
+            <button type="button" class="rating-button" data-game-id="chess">Enviar Avaliação</button>
+          </div>
+
+          <div class="rating-card">
+            <h3>Simulador de Magnata</h3>
+            <div class="rating-stars">
+              <span class="star" data-value="1">⭐</span>
+              <span class="star" data-value="2">⭐</span>
+              <span class="star" data-value="3">⭐</span>
+              <span class="star" data-value="4">⭐</span>
+              <span class="star" data-value="5">⭐</span>
+            </div>
+            <p class="rating-comment" id="comment-idle">Clique para avaliar</p>
+            <button type="button" class="rating-button" data-game-id="idle">Enviar Avaliação</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommendations-section">
+        <h2>🎮 Recomende um Novo Jogo</h2>
+        <p style="text-align: center; color: #aaa; margin-bottom: 30px;">Não encontrou o jogo que procura? Deixe uma sugestão para que adicionemos em breve!</p>
+        <div class="recommendations-form">
+          <form id="recommendationForm">
+            <div class="form-group">
+              <label for="gameName">Nome do Jogo:</label>
+              <input type="text" id="gameName" name="gameName" placeholder="Digite o nome do jogo" required>
+            </div>
+
+            <div class="form-group">
+              <label for="gameGenre">Gênero:</label>
+              <input type="text" id="gameGenre" name="gameGenre" placeholder="Ex: Ação, Puzzle, Esportes..." required>
+            </div>
+
+            <div class="form-group">
+              <label for="gameLink">Link do Jogo (opcional):</label>
+              <input type="url" id="gameLink" name="gameLink" placeholder="Ex: https://example.com/game">
+            </div>
+
+            <div class="form-group">
+              <label for="gameDescription">Por que recomenda:</label>
+              <textarea id="gameDescription" name="gameDescription" placeholder="Conte-nos por que acha que esse jogo deveria estar no Arcade365..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="userName">Seu Nome (opcional):</label>
+              <input type="text" id="userName" name="userName" placeholder="Como você gostaria de ser creditado?">
+            </div>
+
+            <button type="submit" class="submit-button">Enviar Recomendação</button>
+          </form>
+          <div class="success-message" id="successMessage">
+            ✓ Obrigado pela recomendação! Analisaremos seu sugestão em breve!
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <footer id="rodape">
+    <nav>
+      <ul>
+        <li><a href="https://github.com/AndreWeberDev/projeto-arcade365"><strong>Github Do Projeto</strong></a></li>
+        <li><a href="./src/view/about.html"><strong>Sobre</strong></a></li>
+        <li><a href="./src/view/terms.html"><strong>Termos de Serviço</strong></a></li>
+        <li><a href="./src/view/politics.html"><strong>Política</strong></a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2026 Arcade365 - todos os direitos reservados.</p>
+  </footer>
+
+  <script src="./src/js/games.js" defer></script>
+  <script src="./src/js/app.js" defer></script>
+</body>
+</html>
