@@ -6,4 +6,6 @@ Sou Andr√© Junior, estudante brasileiro, cursando atualmente o 2o ano do EM, fa√
 
 - [@AndreWeberDev](https://github.com/AndreWeberDev)
 
-****
+## Contributing (Meu professor)
+
+- [@RaphaelRodriguesDev](https://github.com/RaphaelRodriguesDev)
