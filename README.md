@@ -9,3 +9,6 @@ Sou Andr√© Junior, estudante brasileiro, cursando atualmente o 2o ano do EM, fa√
 ## Contributing (Meu professor)
 
 - [@RaphaelRodriguesDev](https://github.com/RaphaelRodriguesDev)
+
+## Description
+- Neste Repositorio aprendo tudo sobre backend
